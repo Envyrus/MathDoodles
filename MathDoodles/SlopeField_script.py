@@ -5,8 +5,8 @@ import math
 '''
 This script allows you to plot a slope field for a given first order differential equation of the form dy/dx = f(x,y)
 '''
-def differentialEquation(x,y): #input any differential equation of the form dy/dx = f(x,y)
-    if(x != 0):
+def differentialEquation(x,y):  #input any differential equation of the form dy/dx = f(x,y)
+    if(x != 0):                 #filter conditions for which the function is not defindeD
         slope = y/x**3
     else:
         slope = "undefined"
